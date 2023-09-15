@@ -1,0 +1,236 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: #333;
+}
+
+.container-menu{ 
+    width: 700px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.btn-menu {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    cursor: pointer;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 8.11px 8.11px 15px #2E2E2E, -8.11px -8.11px 15px #383838;
+    transition: 0.1s;
+}
+
+.ligne {
+    width: 75px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.1s ease-in-out;
+}
+
+.ligne::before{
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    background-color: #333;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.ligne::after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    background-color: #333;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+.container-menu.active .ligne::before {
+    transform: translateY(19px) rotate(-45deg);
+}
+
+.container-menu.active .ligne{
+    background: transparent;
+}
+
+.container-menu.active .ligne::after {
+    transform: translateY(-20px) rotate(45deg);
+}
+
+.container-menu.active .btn-menu {
+    width: 210px;
+    height: 210px;
+}
+
+.icone {
+    width: 95px;
+}
+
+
+.blob {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 8.11px 8.11px 15px #2E2E2E, -8.11px -8.11px 15px #383838;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.blob1{
+    background: #e0fefe;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob1:active{
+    background: #e0fefe;
+box-shadow: inset 20px 20px 60px #bed8d8,
+            inset -20px -20px 60px #ffffff;
+}
+
+.blob2{
+    background: #c7ceea;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob2:active{
+    box-shadow: inset 20px 20px 60px #a9afc7,
+            inset -20px -20px 60px #e5edff;
+}
+
+.blob3{
+    background: #ffdac1;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob3:active{
+    background: #ffdac1;
+box-shadow: inset 20px 20px 60px #d9b9a4,
+            inset -20px -20px 60px #fffbde;
+}
+
+.blob4{
+    background: #ff9aa2;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob4:active{
+    background: #ff9aa2;
+box-shadow: inset 20px 20px 60px #d9838a,
+            inset -20px -20px 60px #ffb1ba;
+}
+
+.blob5{
+    background: #ffffd8;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob5:active{
+    background: #ffffd8;
+box-shadow: inset 10px 10px 20px #b0b095,
+            inset -10px -10px 20px #ffffff;
+}
+
+.blob6{
+    background: #b5ead7;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob6:active{
+    background: #b5ead7;
+box-shadow: inset 10px 10px 20px #8db7a8,
+            inset -10px -10px 20px #ddffff;
+}
+
+.blob7{
+    background: #ffd700;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob7:active{
+    background: #ffd700;
+    box-shadow: inset 6px 6px 12px #a38a00,
+                inset -6px -6px 12px #ffff00;
+}
+
+.blob8{
+    background: #e9967a;
+    transition: 0.2s  ease-in-out;
+}
+
+.blob8:active{
+    background: #e9967a;
+box-shadow: inset 8px 8px 16px #9c6552,
+            inset -8px -8px 16px #ffc8a2;
+}
+
+
+.container-menu.active .blob1{
+    left: 100%;
+}
+
+.container-menu.active .blob2{
+    top: 85%;
+    left: 85%;
+}
+
+.container-menu.active .blob3{
+    top: 100%;
+}
+
+.container-menu.active .blob4{
+    left: 15%;
+    top: 85%;
+}
+
+.container-menu.active .blob5{
+    left: 0%;
+    top: 50%;
+}
+
+.container-menu.active .blob6{
+    top: 15%;
+    left: 15%;
+}
+
+.container-menu.active .blob7{
+    top: 0%;
+    left: 50%;
+}
+
+.container-menu.active .blob8{
+    left: 85%;
+    top: 15%;
+}
