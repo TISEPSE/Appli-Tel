@@ -129,3 +129,108 @@ box-shadow: inset 20px 20px 60px #bed8d8,
     box-shadow: inset 20px 20px 60px #a9afc7,
             inset -20px -20px 60px #e5edff;
 }
+
+.blob3{
+    background: #ffdac1;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob3:active{
+    background: #ffdac1;
+box-shadow: inset 20px 20px 60px #d9b9a4,
+            inset -20px -20px 60px #fffbde;
+}
+
+.blob4{
+    background: #ff9aa2;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob4:active{
+    background: #ff9aa2;
+box-shadow: inset 20px 20px 60px #d9838a,
+            inset -20px -20px 60px #ffb1ba;
+}
+
+.blob5{
+    background: #ffffd8;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob5:active{
+    background: #ffffd8;
+box-shadow: inset 10px 10px 20px #b0b095,
+            inset -10px -10px 20px #ffffff;
+}
+
+.blob6{
+    background: #b5ead7;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob6:active{
+    background: #b5ead7;
+box-shadow: inset 10px 10px 20px #8db7a8,
+            inset -10px -10px 20px #ddffff;
+}
+
+.blob7{
+    background: #ffd700;
+    transition: all 0.2s  ease-in-out;
+}
+
+.blob7:active{
+    background: #ffd700;
+    box-shadow: inset 6px 6px 12px #a38a00,
+                inset -6px -6px 12px #ffff00;
+}
+
+.blob8{
+    background: #e9967a;
+    transition: 0.2s  ease-in-out;
+}
+
+.blob8:active{
+    background: #e9967a;
+box-shadow: inset 8px 8px 16px #9c6552,
+            inset -8px -8px 16px #ffc8a2;
+}
+
+
+.container-menu.active .blob1{
+    left: 100%;
+}
+
+.container-menu.active .blob2{
+    top: 85%;
+    left: 85%;
+}
+
+.container-menu.active .blob3{
+    top: 100%;
+}
+
+.container-menu.active .blob4{
+    left: 15%;
+    top: 85%;
+}
+
+.container-menu.active .blob5{
+    left: 0%;
+    top: 50%;
+}
+
+.container-menu.active .blob6{
+    top: 15%;
+    left: 15%;
+}
+
+.container-menu.active .blob7{
+    top: 0%;
+    left: 50%;
+}
+
+.container-menu.active .blob8{
+    left: 85%;
+    top: 15%;
+}
