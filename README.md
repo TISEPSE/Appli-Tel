@@ -1,2 +1,2 @@
 # Hello ! 
-## What my application look like ? 
+## What does my app look like ?
