@@ -1,4 +1,4 @@
-# Hello ! 
+# Mobile phone portfolio
 ## What does my app do and look like ?
 > [!NOTE]
 I created this application to practice coding in html / css and javascript and I'm pretty happy with the result. The image you see is the first page on which you can click to see various buttons on my other works.
