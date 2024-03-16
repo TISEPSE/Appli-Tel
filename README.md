@@ -1,7 +1,7 @@
 # Mobile phone portfolio
 ## What does my app do and look like ?
 > [!NOTE]
-I created this application to practice coding in html / css and javascript and I'm pretty happy with the result. The image you see is the first page on which you can click to see various buttons on my other works.
+I created this application to practice coding in html / css and javascript but above all to create a portfolio (i'm pretty happy with the result). The image you see is the first page on which you can click to see various buttons on my other works.
  
 ![image](https://github.com/TISEPSE/Appli-Tel/assets/143852263/ab36df58-f850-483f-9267-6af7ceb93044)
 
